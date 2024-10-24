@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <!-- Include Font Awesome for the menu and search icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="styless.css" rel="stylesheet"> <!-- Link to external CSS file -->
+</head>
+<body>
+    <header>
+        <!-- Main navigation bar -->
+        <nav class="navbar">
+            <!-- Menu icon (for mobile or hamburger menu) -->
+            <div class="menu-icon">
+                <i class="fas fa-bars"></i> <!-- Font Awesome Menu Icon -->
+            </div>
+            <!-- Left-side navigation links -->
+            <ul class="nav-links">
+                <li><a href="#drinks">Places</a></li>
+                <li><a href="#franchise">Book A Trip</a></li>
+            </ul>
+
+            <!-- Centered logo in the navbar -->
+            <div class="logo">
+                <a href="#"><img src="C:\Users\HP\Downloads\logo-removebg-preview.png" alt="Coca Cola Logo"></a> <!-- Replace with actual logo source -->
+            </div>
+
+            <!-- Right-side navigation links -->
+            <ul class="nav-links">
+                <li><a href="#stores">Guide</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <!-- Search icon on the far right -->
+            <div class="search-icon">
+                <a href="#"><i class="fas fa-search"></i></a> <!-- Font Awesome Search Icon -->
+            </div>
+        </nav>
+    </header>
+    <div id="home" class="content">
+        <div class="left">
+            <h1>Welcome to <span style="color: rgb(55, 156, 218);">Karnataka</span>.</h1>
+            <p>One State Many Worlds.</p>
+            <button type="button"><i class=""></i>Explore Now</button>
+        </div>
+        <div class="center">
+            <div class="center-bg">
+            </div>
+        </div>
+        <div class="right">
+           <div class="right-elems">
+                <!-- Description Section -->
+                <div class="elem1 description">
+                    <h1>Why Should you visit?</h1>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="content-section description-content">
+                    <p>Karnataka, located in southern India, is a diverse state that offers a blend of history, culture, natural beauty, and adventure. It is renowned for its ancient temples, palaces, and UNESCO World Heritage Sites like Hampi and Pattadakal. The state's capital, Bengaluru, is a hub for technology and nightlife, while Mysuru showcases its royal heritage with the iconic Mysore Palace. Karnataka also boasts stunning landscapes, from the Western Ghats' lush forests and coffee plantations to the serene beaches of Gokarna and Udupi. The state is a paradise for wildlife enthusiasts, with national parks like Bandipur and Nagarhole offering thrilling safari experiences. With its vibrant festivals, traditional crafts, and diverse cuisine, Karnataka provides a rich and memorable travel experience..</p>
+                </div>
+                <!-- Nutrients Section -->
+                <div class="elem1 nutrients">
+                    <h1>Famous for</h1>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="content-section nutrients-content">
+                    <p>Bengaluru:Silicon Valley <br> Mysore:City of palaces <br> Hampi:Heritage <br> Chikkamagaluru:Treks and Grasslands <br> Coorg:Hill Staion </p>
+                </div>
+
+                <!-- Ingredients Section -->
+                <div class="elem2">
+                    <h1>Support of Govt</h1>
+                    <p>Karnataka government encourages Tourism. It gave a tagline called 'One State Many Worlds for Karnataka. It has seperate functioning department called Karnataka State Tourism Dept.</p>
+                </div>
+           </div>
+        </div>
+        <img src="C:\Users\HP\Downloads\govt-removebg-preview.png" height="50" width="400">
+        
+    </div>
+    <section  id="drinks" class="drinks-section">
+        <h1>Our Pride</h1>
+        <div class="drinks-grid">
+            <div class="drink-item">
+                <img src="C:\Users\HP\Downloads\chikkamagaluru.jpg" alt="Coca-Cola Classic">
+                <h3><span style="color: rgb(55, 156, 218);">Chikkamagaluru </span></h3><br>
+                <p>Known for Hill staions  Coffee plantation and also for grasslands and waterfalls .</p>
+            </div>
+            <div class="drink-item">
+                <img src="C:\Users\HP\Downloads\jogfalls.avif" alt="Diet Coke">
+                <h3> <span style="color: rgb(55, 156, 218);">Jog Falls</span> </h3><br>
+                <p>Second Highest waterfall in India. Formed by the river Sharavathi flows towards Arabian sea.</p>
+            </div>
+            <div class="drink-item">
+                <img src="C:\Users\HP\Downloads\murudeshwar.webp" alt="Coca-Cola Zero Sugar">
+                <h3><span style="color: rgb(55, 156, 218);">Murudeshwar</span></h3><br>
+                <p>Murudeshwara is beach in west coast of Karnataka. It conists of tall statue of Lord Shiva Meditating . Gives you a Blossom View in the sea side.</p>
+            </div>
+            <!-- Add more drink items here -->
+            <div class="drink-item">
+                <img src="C:\Users\HP\Downloads\mysore.jpeg" alt="Coca-Cola Zero Sugar">
+                <h3><span style="color: rgb(55, 156, 218);">Mysore</span></h3><br>
+                <p>Mysore is a ancient City of Karnataka ruled by Mysore Wodeyars and Tippu Sultan Hyder Ali. It has Plenty Of Palaces , Monuments , Chmundi hill , etc,</p>
+            </div>
+        </div>
+    </section>
+    <section id="stores" class="Stores">
+        <div class="stores">
+            <h2>Get a Guide to Explore</h2>
+            <div class="store-list">
+              <div class="store-item right">
+                <p>Select a location and get in contact with the Guide.</p><br>
+                <p>Search for local guide.<br>
+                  <label for="places">Choose a place:</label>
+                  <select id="places" name="places">
+                    <option value=""></option>
+                    <option value="Mysore">Mysore</option>
+                    <option value="Bengaluru">Bengaluru</option>
+                    <option value="Hampi">Hampi</option>
+                    <option value="Chikkamagaluru">Chikkamagaluru</option>
+                    <option value="Coorg">Coorg</option>
+                    <option value="Udupi">Udupi</option>
+                  </select><br>
+                  Contact:0000000
+                </p>
+              </div>
+              
+    </section>
+    <section id="franchise" class="franchise">
+        <div class="buy-franchise">
+            <h2>Book your Trip </h2>
+            <p>Spend your precious time in making memories with KSTD.</p>
+            <p>Book your holidays to see the richness of Karnataka Nature.</p>
+            <p>Visit the web <a href="www.karnatakatourism.com">Karnataka Tourism</a>.</p>
+            <button type="button">Learn More About KSTD</button>
+          </div>
+    <div  id="contact" class="contact-section">
+        <h2>Get in Touch with Us</h2>
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <p>Phone: +91 80 4334 4334</p>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <p>Email: [info@kstdc.co](mailto:info@kstdc.co)</p>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <p>web: kstdc.gov.in</p>
+          </div>
+        </div>
+        <div class="social-media">
+          <h3>Reach Us on Social Media</h3>
+          <div class="social-media-links">
+            <a class="facebook" href="#">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a class="twitter" href="#">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a class="instagram" href="#">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a class="youtube" href="#">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+        <div class="contact-form">
+          <h3>Send a Feedback</h3>
+          <form>
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <textarea placeholder="Message"></textarea>
+            <button type="button">Send</button>
+          </form>
+        </div>
+      </div>
+    <script src="script.js"></script>
+</section>
+</body>
+</html>
